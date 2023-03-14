@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    background-color: #eddbf8; 
+    width: 100%; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+.logo-gym{
+    margin-top: 51px;
+    width: 67px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 6px;
+    color: #FFFFFF;
+    background-color: #6765F0;
+    box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+    border-radius: 10px;
+}
+.logo h3{
+    margin-top: 51px;
+    color: #6765F0;
+    font-family: poppins;
+    font-size: 20px;
+    font-family: 100;
+
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.link ul{
+    display: flex;
+    column-gap: 25px;
+    margin-top: 55px;
+}
+.link ul li a{
+    text-decoration: none;
+    color: #000000;
+    top: 55px;
+    font-weight: 100;
+    font-size: 16px;
+    font-family: poppins;
+}
+.link ul li{
+    list-style-type: none;
+}
+.login{
+    margin-right: 50px;
+    width: 114px;
+    height: 50px;
+    background: #264373;
+    box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.left{
+    margin-left: 100px;
+}
+.text{
+    display: flex;
+    align-content: end;    
+    padding-bottom: 32px;
+}
+.text span{
+    color: #8382EB;
+}
+.exercise{
+    margin-left: 90px;
+    width: 480px;
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #262524;
+    opacity: 0.6;
+}
+.text h1{
+    font-family: 'Sporting Grotesque';
+    font-size: 68px;
+    color: #262524;
+    font-weight: 700;
+    width:540px;
+    margin-left: 90px;
+ }
+.text .img{
+    width: 50px;
+}
+.text span{
+    color: #8382EB;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.get-started{
+    margin-left: -100px;
+}
+.learn-more{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: -45px;
+    margin-left: -50px;
+    width: 180px;
+    height: 56px;
+    padding: 12px;
+}
+.brand{
+    margin-top: -20px;
+    margin-left: 100px;
+}
+.right-container img{
+    padding: 20px;
+    /* margin-right: 60px;
+    margin-left: 100px; */
+}
+.second-session{
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+    margin-left: 100px;
+}
+.footer-first-session{
+    margin-left: 100px;
+}
+
+.sec-session-left{
+width: 500px;
+height: 146px;
+font-family: 'Sporting Grotesque';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+color: #262524;
+}
+.sec-session-right{
+width: 674px;
+height: 112px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #262524;
+opacity: 0.5;
+}
+.sec-session-bottom{
+    margin-left: 100px;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.third-left{
+    margin-right: 60px;
+}
+.text-best h2{
+width: 400px;
+font-family: 'Sporting Grotesque';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+color: #262524;
+margin-bottom: 50px;
+margin-top: 20px;
+}
+.text-best p{
+width: 553px;
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.01em;
+color: #262524;
+opacity: 0.5;
+margin-bottom: 20px;
+}
+.text-best-img{
+    margin: -90px;
+}
+.fourth-session{
+    display: flex;
+    align-items: center;
+}
+.left-fourth-session{
+    margin-left: 100px;
+    column-gap: 12px;
+}
+.left-fourth-session h1{
+    width: 500px;
+    font-family: 'Sporting Grotesque';
+    font-weight: 400;
+    font-size: 56px;
+    color: #262524;
+    margin-bottom: 20px;
+}
+.left-fourth-session p{
+    width: 553px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: #262524;
+    opacity: 0.5;
+}
+.fifth-session{
+    display: flex;
+    justify-content: center;
+}
+.right-fifth-session h2{
+    margin-top: 50px;
+    width: 558px;
+    height: 73px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    color: #262524;
+}
+.right-fifth-session .the-body{
+    width: 488px;
+    margin-bottom: 25px; 
+    padding: 10px 4px;
+    height: 56px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #262524;
+    background-color: #ffffff;
+    box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+    border-radius: 10px
+}
+.right-fifth-session .give-up{
+    font-size: 16px;
+    width: 488px;
+    height: 56px;
+    margin-bottom: 16px;
+    padding: 12px 6px;
+    background: #FFFFFF;
+    opacity: 0.3;
+    box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+    border-radius: 10px
+}
+.right-fifth-session .become{
+    font-size: 16px;
+    width: 488px;
+    height: 56px;
+    padding: 12px 6px;
+    background: #FFFFFF;
+    opacity: 0.3;
+    box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+    border-radius: 10px
+}
+#footer-blue{
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 448px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-down{
+    background-color: #ffffff;
+    width: 56px;
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7270EE;
+}
+.we-take{
+    width: 333px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.logo-text{
+width: 69px;
+font-family: 'Sporting Grotesque';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #FFFFFF
+}
+.footer-logo-side{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.footer--icon{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-other{
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    margin-top: 124px;
+}
+.footer-other h3{
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Poppins';
+}
+.footer-other p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
